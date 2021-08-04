@@ -10,7 +10,7 @@ const tick = 160
 
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
-const input = []
+const input = ['right']
 let direction
 let food
 let looper
