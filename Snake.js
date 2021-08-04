@@ -6,7 +6,7 @@ const horizontalTiles = width / tileSize
 const snakeColor = 'green'
 const foodColor = 'red'
 const collisionColor = 'red'
-const tick = 200
+const tick = 160
 
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
@@ -127,7 +127,7 @@ function init () {
 }
 
 function loop () {
-  if (collision == false) {
+  if (collision === false) {
     snake.move()
     draw()
   } else {
